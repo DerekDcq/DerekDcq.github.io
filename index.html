@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="confetti.min.js" ></script>
+    <link rel="stylesheet" href=" style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="nina">Joyeux anniversaire<br> Nina &#127881;</div>
+        <div id="clic">(clique n'importe ou)</div>
+        <div id="bg"></div>
+    </div>
+</body>
+<script>
+let confetti = new Confetti('main');
+confetti.setCount(175);
+confetti.setSize(1);
+confetti.setPower(20);
+confetti.setFade(false);
+confetti.destroyTarget(false);
+</script>
+</html>
