@@ -21,6 +21,7 @@
 #nina0{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 #bg{
     height: 25rem;
