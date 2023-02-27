@@ -7,10 +7,11 @@
     <title>Document</title>
     <script src="confetti.min.js" ></script>
     <link rel="stylesheet" href=" style.css">
+     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <div id="main">
-        <div id="nina">Joyeux anniversaire<br> Nina &#127881;</div>
+        <div id="nina">Flo la claquette👟;</div>
         <div id="clic">(clique n'importe ou)</div>
         <div id="bg"></div>
     </div>
@@ -22,5 +23,8 @@ confetti.setSize(1);
 confetti.setPower(20);
 confetti.setFade(false);
 confetti.destroyTarget(false);
+   
+    ScrollReveal().reveal('#nina', { duration: 1000, distance: '150%', origin: 'bottom' });
+
 </script>
 </html>
