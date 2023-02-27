@@ -10,15 +10,17 @@
     height: 100vh;
     background-color: #021029;
 }
-#nina0{
-
+#nina,#nina1,#nina2,#nina3{
     font-size: 4rem;
-    position: absolute;
     top: 30vh;
     color: white;
     z-index: 10;
     text-align: center;
     line-height: 7rem;
+}
+#nina0{
+    display: flex;
+    justify-content: center;
 }
 #bg{
     height: 25rem;
